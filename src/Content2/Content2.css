@@ -1,0 +1,12 @@
+.frame3{
+    
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 10% 10%;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+

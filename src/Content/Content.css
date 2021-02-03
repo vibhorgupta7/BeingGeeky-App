@@ -1,0 +1,11 @@
+.frame2{
+    
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 10% 10%;
+    box-sizing: border-box;
+    background-color: rgb(71,111,112);
+    align-content: center;
+    text-align: center;
+}
+
