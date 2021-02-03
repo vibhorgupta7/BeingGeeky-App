@@ -1,23 +1,28 @@
 import React from 'react';
 
 const navigation = () => {
+    
+  
     return(
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-                <ul className="navbar-nav">
-                    <li className="nav-item success">
-                        <a className="nav-link text-light" href="#">Being Geeky</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-light" href="#2">Tutorials</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-light" href="#3">Videos</a>
-                    </li>
-                    <li className="nav-item">
-                         <a className="nav-link text-light" href="#4">Coupons</a>
-                    </li>
-                </ul>
-            </nav>
+
+        
+        
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#"><span ></span> Being Geeky</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#2"><span></span> Tutorials</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#3"><span></span> Videos</a></li>
+                            <li class="nav-item "><a class="nav-link" href="#4"><span></span> Coupons</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     );
 }
 
