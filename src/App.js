@@ -5,6 +5,8 @@ import Content from './Content/Content';
 import Content2 from './Content2/Content2';
 import Content3 from './Content3/Content3';
 import Coupon from './Coupon/Coupon';
+import Footer from './Footer/Footer';
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <Content/>
       <Content2/>
       <Content3/>
-      <Coupon />
+      <Coupon/>
+      <Footer/>
     </div>
   );
 }
